@@ -10,7 +10,7 @@ import SwiftUI
 let defaultTime: CGFloat = 20
 let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
 
-struct ContentView: View {
+struct TimerView: View {
     
     @State private var timeRunning = false
     @State private var countdownTime: CGFloat = defaultTime
@@ -67,5 +67,5 @@ struct ContentView: View {
 }
     
 #Preview {
-            ContentView()
+            TimerView()
         }

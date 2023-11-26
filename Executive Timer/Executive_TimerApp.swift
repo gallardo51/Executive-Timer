@@ -11,7 +11,7 @@ import SwiftUI
 struct Executive_TimerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TimerView()
         }
     }
 }
